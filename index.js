@@ -1,5 +1,5 @@
 // Your code goes here
 
 document.addEventListener("DOMContentLoaded", function(){
-  document.getBy
+  document.getByElementId("text").innerText = "This is really cool!"
 });
