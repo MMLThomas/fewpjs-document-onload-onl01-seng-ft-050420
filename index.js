@@ -1,6 +1,6 @@
 // Your code goes here
 
-document.addEventListener("DOMContentLoaded", function() {
-  let a = document.querySelector('#text')
-  a.innerText = "This is really cool!"
+document.addEventListener("DOMContentLoaded", function(){
+  document.getElementById('text').textContent = "This is really cool!"
 });
+
