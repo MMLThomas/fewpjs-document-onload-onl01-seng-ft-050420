@@ -2,5 +2,5 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   let a = document.querySelector('#text')
-  a.textContent = "This is really cool!"
+  a.innerText = "This is really cool!"
 });
